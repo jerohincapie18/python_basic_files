@@ -12,7 +12,7 @@ lista_pdf_ = glob.glob("C:\\Users\\jeroh\\Desktop\\librosCyber\\*.pdf_") #aqui e
 #print(lista_pdf_[0])
 #l1 = lista_pdf_[0]
 #print(l1.split(".")[0])
-# Aqui los transformo, de .pdf_ a .pdf
+# Aqui los transformo, de .pdf_ a .pdf (se puede meter en un try except para los errores)
 for nombre in lista_pdf_:
    libro = nombre.split(".")[0]
    print(libro)
